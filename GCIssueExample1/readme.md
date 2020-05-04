@@ -16,14 +16,14 @@ Perform the following steps to diagnost the issue in PrefView:
 7. Double-click the __GCStats__, and navigate to __d__.
 
 You will see interesting information like:
-![GC process keeps reference](./images/GC-process-keeps-reference1.png)
+![GC process keeps reference](./images/gc-process-keeps-reference1.png)
 
 Now let's also look at the memory dump
 8. Click __Memory__ and __Take heap snapshot__.
 9. Select the process and click __Dump GC Heap__.
 
 You will see interesting information like:
-![GC process keeps reference](./images/GC-process-keeps-reference2.png)
+![GC process keeps reference](./images/gc-process-keeps-reference2.png)
 
 Which shows you that the static variable (the main arra ) is referencing all most all the memory of the program.
 
