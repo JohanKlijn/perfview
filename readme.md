@@ -1,4 +1,4 @@
-# Repository which contains information around PrefView
+# Repository which contains information around PerfView
 
 Tools:
 
